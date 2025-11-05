@@ -1,0 +1,8 @@
+[
+  {"id":"1","Abstract":"Nature","imageUrl":"assets/wallpapers/abstract_bg.jpg","wallpapersCount":3},
+  {"id":"2","Animals":"Abstract","imageUrl":"assets/wallpapers/animals_bg.jpg","wallpapersCount":4},
+  {"id":"2","Minimalist":"Abstract","imageUrl":"assets/wallpapers/minimalist_bg.jpg","wallpapersCount":6},
+  {"id":"2","Nature":"Abstract","imageUrl":"assets/wallpapers/nature_bg.jpg","wallpapersCount":3},
+  {"id":"2","Space":"Abstract","imageUrl":"assets/wallpapers/space_bg.jpg","wallpapersCount":6},
+  {"id":"2","Urban":"Abstract","imageUrl":"assets/wallpapers/urban_bg.jpg","wallpapersCount":4}
+]
