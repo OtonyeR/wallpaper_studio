@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:wallpaper_studio/presentation/themes/app_theme.dart';
 
 import '../../data/models/category.dart';
-import 'gradient_chip.dart'; // Assuming InfoChip is GradientGlassChip from previous context
+import 'gradient_chip.dart';
 
 class ListCard extends StatefulWidget {
   final Category category;
@@ -74,7 +74,7 @@ class _ListCardState extends State<ListCard> {
                         ),
                       ),
                     ),
-                    // 2. The Semi-transparent overlay (static, no zoom)
+
                     Container(
                       decoration: BoxDecoration(
                         color: const Color.fromRGBO(0, 0, 0, 0.3),
@@ -96,7 +96,7 @@ class _ListCardState extends State<ListCard> {
                       widget.title ?? widget.category.title,
                       style: widget.isWallpaper ? Theme.of(context).textTheme.bodyMedium!.copyWith(color: Colors.black) : Theme.of(context).textTheme.labelMedium!.copyWith(color: Colors.black),
                     ),
-                    SizedBox(height: 4.h), // Spacing
+                    SizedBox(height: 4.h),
                     Visibility(
                       visible: !widget.isWallpaper,
                       child: Text(
@@ -106,7 +106,7 @@ class _ListCardState extends State<ListCard> {
                         overflow: TextOverflow.visible,
                       ),
                     ),
-                    SizedBox(height: 4.h), // Spacing
+                    SizedBox(height: 4.h),
                     InfoChip(
                       label:  widget.isWallpaper
                           ? widget.category.title

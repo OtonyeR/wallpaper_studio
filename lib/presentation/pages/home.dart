@@ -1,19 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/svg.dart';
 import 'package:wallpaper_studio/core/wallpaper_prefs.dart';
 import 'package:wallpaper_studio/data/models/wallpaper.dart';
 import 'package:wallpaper_studio/data/wallpapers.dart';
 import 'package:wallpaper_studio/presentation/pages/cat_details.dart';
-import 'package:wallpaper_studio/presentation/widgets/app_scaffold.dart';
-import 'package:wallpaper_studio/presentation/widgets/category_grid_card.dart';
+
 import 'package:wallpaper_studio/presentation/widgets/gradient_text.dart';
 
 import '../../data/models/category.dart';
 import '../themes/app_theme.dart';
 import '../widgets/cat_grid.dart';
 import '../widgets/current_wp_box.dart';
-import '../widgets/icon_button.dart';
 
 class Home extends StatefulWidget {
   final ValueChanged<int> onNavigate;

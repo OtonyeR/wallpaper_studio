@@ -90,7 +90,6 @@ class _GridCardState extends State<GridCard> {
                 ),
               ),
 
-              //Save to Favourites
 
               // Texts and chip
               Positioned(

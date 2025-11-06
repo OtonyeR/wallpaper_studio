@@ -63,7 +63,7 @@ class _FavouritesPageState extends State<FavouritesPage> {
     final width = MediaQuery.widthOf(context);
     // final height = MediaQuery.heightOf(context);
     final bool isNarrowScreen = width < 650;
-    // final bool isMediumScreen = width < 850;
+    final bool isMediumScreen = width < 850;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -186,7 +186,7 @@ class _FavouritesPageState extends State<FavouritesPage> {
                           onTap: () {
                             widget.onNavigate(1);
                           },
-                          width: isNarrowScreen ? width * 0.6 : width * 0.2,
+                          width: isMediumScreen ? width * 0.6 : width * 0.2,
                           buttonText: 'Browse Wallpapers',
                           textColor: Colors.white,
                           hasIcon: false,

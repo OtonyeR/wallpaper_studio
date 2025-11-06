@@ -4,7 +4,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:wallpaper_studio/data/models/wallpaper.dart';
 import 'package:wallpaper_studio/presentation/pages/main_home.dart';
 import 'package:wallpaper_studio/presentation/pages/wallpaper_preview.dart';
-import 'package:wallpaper_studio/presentation/widgets/app_scaffold.dart';
 
 import '../../core/wallpaper_prefs.dart';
 import '../../data/models/category.dart';

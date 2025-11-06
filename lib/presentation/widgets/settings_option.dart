@@ -117,7 +117,6 @@ class SettingOption<T> extends StatelessWidget {
           ),
         ),
         child: Center(
-          // Added Center to properly position the inner dot
           child: Container(
             height: 20.r,
             width: 20.r,

@@ -25,7 +25,6 @@ class CurrentWallpaperBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 250.33.h,
       padding: EdgeInsets.only(
         left: 20.w,
         bottom: 20.h,
@@ -60,7 +59,6 @@ class CurrentWallpaperBox extends StatelessWidget {
           SizedBox(width: 20.w),
           Expanded(
             child: SizedBox(
-              // width: isMediumScreen ? width * 0.5 : width * 0.7,
               child: Column(
                 mainAxisAlignment: isNarrowScreen
                     ? MainAxisAlignment.spaceAround
